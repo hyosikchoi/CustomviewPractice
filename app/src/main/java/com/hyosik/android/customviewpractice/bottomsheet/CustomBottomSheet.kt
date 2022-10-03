@@ -13,6 +13,10 @@ class CustomBottomSheet() : BottomSheetDialogFragment() {
 
     private lateinit var binding : DialogBottomSheetBinding
 
+    init {
+        setStyle(STYLE_NORMAL , R.style.Theme_CustomBottomSheet)
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
